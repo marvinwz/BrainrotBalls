@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "fmt",
+    "glew",
+    "glfw3",
+    "openal-soft",
+    "libsndfile"
+  ]
+}
