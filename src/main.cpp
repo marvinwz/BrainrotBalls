@@ -216,7 +216,7 @@ void updateBalls(std::vector<Ball>& balls, float wallRadius, float deltaTime, So
     float adjustedDeltaTime = deltaTime * SIMULATION_SPEED;
 
     std::vector<Ball> newBalls;
-    const size_t MAX_BALLS = 10000;
+    const size_t MAX_BALLS = 1000;
     const float MOMENTUM_INCREMENT = 0.05f;
     const float MAX_ADDED_MOMENTUM = 5.0f;
     const float CENTER_BIAS = 0.5f;  // Strength of the center-directed bounce (0 to 1)
